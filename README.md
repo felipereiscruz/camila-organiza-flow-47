@@ -1,4 +1,27 @@
-# Welcome to your Lovable project
+# Central de Organização da Camila
+
+Uma aplicação web para organização pessoal da Camila, incluindo faculdade, trabalho, academia e GJ.
+
+## 🚀 Deploy no GitHub Pages
+
+Este projeto está configurado para deploy automático no GitHub Pages através do GitHub Actions.
+
+### Configuração inicial:
+
+1. **Ative o GitHub Pages no seu repositório:**
+   - Vá para Settings > Pages
+   - Em "Source", selecione "GitHub Actions"
+
+2. **Push para a branch main:**
+   ```bash
+   git add .
+   git commit -m "Configure GitHub Pages deployment"
+   git push origin main
+   ```
+
+3. **O deploy acontece automaticamente:**
+   - O GitHub Actions vai buildar e deployar automaticamente
+   - Sua aplicação estará disponível em: `https://[seu-usuario].github.io/[nome-do-repo]`
 
 ## Project info
 
